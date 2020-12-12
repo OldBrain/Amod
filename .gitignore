@@ -1,0 +1,12 @@
+*.zip
+*.pdf
+*.xls
+*.rar
+*.exe
+*.db
+*.mdb
+*.amd
+/data/arhiv/*
+/temp/*
+/izv/*
+/backup/*
