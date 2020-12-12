@@ -1,0 +1,87 @@
+VERSION 5.00
+Object = "{F0D2F211-CCB0-11D0-A316-00AA00688B10}#1.0#0"; "msdatlst.ocx"
+Object = "{0ECD9B60-23AA-11D0-B351-00A0C9055D8E}#6.0#0"; "MSHFLXGD.OCX"
+Begin VB.Form Priv2 
+   Caption         =   "Priv2"
+   ClientHeight    =   7035
+   ClientLeft      =   60
+   ClientTop       =   345
+   ClientWidth     =   12930
+   LinkTopic       =   "Form7"
+   ScaleHeight     =   7035
+   ScaleWidth      =   12930
+   StartUpPosition =   3  'Windows Default
+   Begin MSHierarchicalFlexGridLib.MSHFlexGrid MSHFlexGrid1 
+      Bindings        =   "Priv1.frx":0000
+      Height          =   4575
+      Left            =   240
+      TabIndex        =   1
+      Top             =   2040
+      Width           =   12615
+      _ExtentX        =   22251
+      _ExtentY        =   8070
+      _Version        =   393216
+      Cols            =   13
+      FillStyle       =   1
+      AllowUserResizing=   1
+      DataMember      =   "KLS_PRIV"
+      _NumberOfBands  =   1
+      _Band(0).Cols   =   13
+      _Band(0).GridLineWidthBand=   1
+      _Band(0)._NumMapCols=   12
+      _Band(0)._MapCol(0)._Name=   "N_KLS"
+      _Band(0)._MapCol(0)._RSIndex=   0
+      _Band(0)._MapCol(0)._Alignment=   7
+      _Band(0)._MapCol(1)._Name=   "NAIM_KLS"
+      _Band(0)._MapCol(1)._RSIndex=   1
+      _Band(0)._MapCol(2)._Name=   "LPKV"
+      _Band(0)._MapCol(2)._RSIndex=   2
+      _Band(0)._MapCol(2)._Alignment=   7
+      _Band(0)._MapCol(3)._Name=   "LPTEH"
+      _Band(0)._MapCol(3)._RSIndex=   3
+      _Band(0)._MapCol(3)._Alignment=   7
+      _Band(0)._MapCol(4)._Name=   "LPOTOPL"
+      _Band(0)._MapCol(4)._RSIndex=   4
+      _Band(0)._MapCol(4)._Alignment=   7
+      _Band(0)._MapCol(5)._Name=   "LPCOMM"
+      _Band(0)._MapCol(5)._RSIndex=   5
+      _Band(0)._MapCol(5)._Alignment=   7
+      _Band(0)._MapCol(6)._Name=   "LPMUSOR"
+      _Band(0)._MapCol(6)._RSIndex=   6
+      _Band(0)._MapCol(6)._Alignment=   7
+      _Band(0)._MapCol(7)._Name=   "USEKV"
+      _Band(0)._MapCol(7)._RSIndex=   7
+      _Band(0)._MapCol(8)._Name=   "USETEH"
+      _Band(0)._MapCol(8)._RSIndex=   8
+      _Band(0)._MapCol(9)._Name=   "USEOTOPL"
+      _Band(0)._MapCol(9)._RSIndex=   9
+      _Band(0)._MapCol(10)._Name=   "USECOMM"
+      _Band(0)._MapCol(10)._RSIndex=   10
+      _Band(0)._MapCol(11)._Name=   "USEMUSOR"
+      _Band(0)._MapCol(11)._RSIndex=   11
+   End
+   Begin MSDataListLib.DataCombo DataCombo1 
+      Bindings        =   "Priv1.frx":001F
+      DataField       =   "NAIM_KLS"
+      DataMember      =   "KLS_PRIV"
+      DataSource      =   "DataEnvironment1"
+      DragMode        =   1  'Авто
+      Height          =   315
+      Left            =   240
+      TabIndex        =   0
+      Top             =   360
+      Width           =   2775
+      _ExtentX        =   4895
+      _ExtentY        =   556
+      _Version        =   393216
+      MatchEntry      =   -1  'True
+      ListField       =   "NAIM_KLS"
+      Text            =   "DataCombo1"
+      Object.DataMember      =   "KLS_PRIV"
+   End
+End
+Attribute VB_Name = "Priv2"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False

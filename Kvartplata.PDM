@@ -1,0 +1,894 @@
+[Root]
+Most Recent Package= вартплата 3.*
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=d:\Install
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=Yes
+Excel=Yes
+Exchange=Yes
+Text=Yes
+Jet 2.x=Yes
+Lotus=Yes
+Paradox=Yes
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\system32\vsstr8.ocx=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+F:\Kv\Amod\Data\Kvartplata.mdb=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+F:\Kv\Amod\KvPay.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao350.dll=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\vsflex8.ocx=Yes
+C:\WINDOWS\system32\vsprint8.ocx=Yes
+C:\WINDOWS\system32\MSRTEDIT.DLL=Yes
+C:\WINDOWS\system32\mswebdvd.dll=Yes
+C:\WINDOWS\system32\Comdlg32.ocx=Yes
+C:\WINDOWS\system32\vsdraw8.ocx=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=Yes
+C:\WINDOWS\system32\vsflex8l.ocx=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\vsrpt8.ocx=Yes
+C:\WINDOWS\system32\vsvport8.ocx=Yes
+C:\WINDOWS\system32\vsstr8.ocx=Yes
+C:\WINDOWS\system32\MSEXCL35.DLL=Yes
+C:\WINDOWS\system32\MSEXCH35.DLL=Yes
+C:\WINDOWS\system32\MSLTUS35.DLL=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\WINDOWS\system32\MSPDOX35.DLL=Yes
+C:\WINDOWS\system32\MSTEXT35.DLL=Yes
+C:\WINDOWS\system32\MSXBSE35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+F:\Kv\Amod\Data\Kvartplata.mdb=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+F:\Kv\Amod\KvPay.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\vsflex8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\vsprint8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSRTEDIT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\mswebdvd.dll=$(WinSysPath)
+C:\WINDOWS\system32\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\vsdraw8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\vsflex8l.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\vsrpt8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\vsvport8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\vsstr8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSEXCL35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSEXCH35.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSLTUS35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINDOWS\system32\MSPDOX35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSTEXT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\Kv\Amod\Data\Kvartplata.mdb=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+F:\Kv\Amod\KvPay.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+F:\Kv\Amod\Data\Kvartplata.mdb=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Kvartplata
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Kvartplata
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Kvartplata]
+Icon1=KvPay.exe
+Title1=Kvartplata
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=d:\Install
+ProjectFolder=F:\Kv\Amod
+ServerSideCab=
+File1=d:\Install\setup.exe
+File2=d:\Install\Setup.Lst
+File3=d:\Install\KvPay.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package| вартплата 1.2.0|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=d:\Install
+
+[Package| вартплата 1.2.0|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=Yes
+Excel=Yes
+Exchange=Yes
+Text=Yes
+Jet 2.x=Yes
+Lotus=Yes
+Paradox=Yes
+
+[Package| вартплата 1.2.0|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package| вартплата 1.2.0|Files Found]
+
+[Package| вартплата 1.2.0|Files Released]
+
+[Package| вартплата 1.2.0|Missing Dependency Information]
+C:\WINDOWS\system32\vsstr8.ocx=
+
+[Package| вартплата 1.2.0|Out-of-Date Dependency Information]
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package| вартплата 1.2.0|Files Added]
+f:\kv\amod\data\kvartplata.mdb=
+F:\Kv\Amod\Util\Rar.exe=
+F:\Kv\Amod\Data\Arhiv\Read.Me=
+
+[Package| вартплата 1.2.0|Files Removed]
+
+[Package| вартплата 1.2.0|Files In Project]
+F:\Kv\Amod\KvPay.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao350.dll=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\vsflex8.ocx=Yes
+C:\WINDOWS\system32\vsprint8.ocx=Yes
+C:\WINDOWS\system32\MSRTEDIT.DLL=Yes
+C:\WINDOWS\system32\mswebdvd.dll=Yes
+C:\WINDOWS\system32\Comdlg32.ocx=Yes
+C:\WINDOWS\system32\vsdraw8.ocx=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=Yes
+C:\WINDOWS\system32\vsflex8l.ocx=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\vsrpt8.ocx=Yes
+C:\WINDOWS\system32\vsvport8.ocx=Yes
+C:\WINDOWS\system32\vsstr8.ocx=Yes
+C:\WINDOWS\system32\MSEXCL35.DLL=Yes
+C:\WINDOWS\system32\MSEXCH35.DLL=Yes
+C:\WINDOWS\system32\MSLTUS35.DLL=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\WINDOWS\system32\MSPDOX35.DLL=Yes
+C:\WINDOWS\system32\MSTEXT35.DLL=Yes
+C:\WINDOWS\system32\MSXBSE35.DLL=Yes
+F:\Kv\Amod\Data\Kvartplata.mdb=Yes
+C:\Program Files\Common Files\System\ado\msado15.dll=Yes
+C:\WINDOWS\system32\odbc32.dll=Yes
+F:\Kv\Amod\Util\Rar.exe=Yes
+F:\Kv\Amod\Data\Arhiv\Read.Me=Yes
+
+[Package| вартплата 1.2.0|Configure Registry Files]
+Applicable=No
+
+[Package| вартплата 1.2.0|Configure Remote Servers]
+Applicable=No
+
+[Package| вартплата 1.2.0|Install Locations]
+F:\Kv\Amod\KvPay.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\vsflex8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\vsprint8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSRTEDIT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\mswebdvd.dll=$(WinSysPath)
+C:\WINDOWS\system32\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\vsdraw8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\vsflex8l.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\vsrpt8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\vsvport8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\vsstr8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSEXCL35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSEXCH35.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSLTUS35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINDOWS\system32\MSPDOX35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSTEXT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\Kv\Amod\Data\Kvartplata.mdb=$(AppPath)
+C:\Program Files\Common Files\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+C:\WINDOWS\system32\odbc32.dll=$(WinSysPathSysFile)
+F:\Kv\Amod\Util\Rar.exe=$(AppPath)
+F:\Kv\Amod\Data\Arhiv\Read.Me=$(AppPath)
+
+[Package| вартплата 1.2.0|Configure Shared Files]
+Applicable=Yes
+F:\Kv\Amod\KvPay.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+F:\Kv\Amod\Data\Kvartplata.mdb=Yes
+
+[Package| вартплата 1.2.0|Distribution]
+Type=single
+Size=
+Title=Kvartplata
+
+[Package| вартплата 1.2.0|IconGroups]
+Group0=Kvartplata
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package| вартплата 1.2.0|Kvartplata]
+Icon1=KvPay.exe
+Title1=Kvartplata
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package| вартплата 1.2.0|DepFile]
+DepCabFile=KvPay.CAB
+DepCabRun=KvPay.INF
+
+[Package| вартплата 1.2.0|Package]
+PackageFolder=d:\Install
+ProjectFolder=F:\Kv\Amod
+ServerSideCab=
+File1=d:\Install\KvPay.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package| вартплата 1.2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=i:\Inst_KV
+
+[Package| вартплата 1.2|Configure DAO ISAMs]
+Applicable=No
+Xbase=Yes
+Excel=Yes
+Exchange=Yes
+Text=Yes
+Jet 2.x=Yes
+Lotus=Yes
+Paradox=Yes
+
+[Package| вартплата 1.2|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package| вартплата 1.2|Files Found]
+
+[Package| вартплата 1.2|Files Released]
+
+[Package| вартплата 1.2|Missing Dependency Information]
+C:\WINDOWS\system32\vsstr8.ocx=
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\DATAFORM.OCX=
+C:\3DABM5\3dabm5.ocx=
+
+[Package| вартплата 1.2|Out-of-Date Dependency Information]
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package| вартплата 1.2|Files Added]
+f:\kv\amod\data\kvartplata.mdb=
+f:\kv\amod\util\rar.exe=
+f:\kv\amod\data\arhiv\read.me=
+
+[Package| вартплата 1.2|Files Removed]
+
+[Package| вартплата 1.2|Files In Project]
+F:\Kv\Amod\KvPay.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\vsflex8.ocx=Yes
+C:\WINDOWS\system32\vsprint8.ocx=Yes
+C:\WINDOWS\system32\Comdlg32.ocx=Yes
+C:\WINDOWS\system32\vsdraw8.ocx=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=Yes
+C:\WINDOWS\system32\vsflex8l.ocx=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\vsrpt8.ocx=Yes
+C:\WINDOWS\system32\vsvport8.ocx=Yes
+C:\WINDOWS\system32\vsstr8.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+F:\Kv\Amod\Data\Kvartplata.mdb=Yes
+F:\Kv\Amod\Util\Rar.exe=Yes
+F:\Kv\Amod\Data\Arhiv\Read.Me=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\DATAFORM.OCX=Yes
+C:\3DABM5\3dabm5.ocx=Yes
+C:\Program Files\Microsoft Office\Office10\MSRTEDIT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINDOWS\system32\msjet40.dll=Yes
+C:\WINDOWS\system32\msjter40.dll=Yes
+C:\WINDOWS\system32\msjint40.dll=Yes
+C:\WINDOWS\system32\mswstr10.dll=Yes
+C:\WINDOWS\system32\mswdat10.dll=Yes
+C:\WINDOWS\system32\msrd2x40.dll=Yes
+C:\WINDOWS\system32\msrd3x40.dll=Yes
+C:\WINDOWS\system32\msrepl40.dll=Yes
+C:\WINDOWS\system32\msjtes40.dll=Yes
+
+[Package| вартплата 1.2|Configure Registry Files]
+Applicable=No
+
+[Package| вартплата 1.2|Configure Remote Servers]
+Applicable=No
+
+[Package| вартплата 1.2|Install Locations]
+F:\Kv\Amod\KvPay.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\vsflex8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\vsprint8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSRTEDIT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\mswebdvd.dll=$(WinSysPath)
+C:\WINDOWS\system32\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\vsdraw8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\vsflex8l.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\vsrpt8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\vsvport8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\vsstr8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSEXCL35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSEXCH35.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSLTUS35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINDOWS\system32\MSPDOX35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSTEXT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\Kv\Amod\Data\Kvartplata.mdb=$(AppPath)
+C:\Program Files\Common Files\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+C:\WINDOWS\system32\odbc32.dll=$(WinSysPathSysFile)
+F:\Kv\Amod\Util\Rar.exe=$(AppPath)
+F:\Kv\Amod\Data\Arhiv\Read.Me=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\DATAFORM.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DATAFORM.OCX=$(WinSysPath)
+C:\3DABM5\3dabm5.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office10\MSRTEDIT.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINDOWS\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjtes40.dll=$(WinSysPathSysFile)
+
+[Package| вартплата 1.2|Configure Shared Files]
+Applicable=Yes
+F:\Kv\Amod\KvPay.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+F:\Kv\Amod\Data\Kvartplata.mdb=Yes
+F:\Kv\Amod\Util\Rar.exe=Yes
+F:\Kv\Amod\Data\Arhiv\Read.Me=Yes
+
+[Package| вартплата 1.2|Distribution]
+Type=single
+Size=
+Title= вартплата 2.0.12
+
+[Package| вартплата 1.2|DepFile]
+DepCabFile=KvPay.CAB
+DepCabRun=KvPay.INF
+
+[Package| вартплата 1.2|Package]
+PackageFolder=i:\Inst_KV
+ProjectFolder=F:\Kv\Amod
+ServerSideCab=
+File1=i:\Inst_KV\setup.exe
+File2=i:\Inst_KV\Setup.Lst
+File3=i:\Inst_KV\KvPay.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package| вартплата 1.2|IconGroups]
+Group0=Kvartplata
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package| вартплата 1.2|Kvartplata]
+Icon1=KvPay.exe
+Title1=Kvartplata 2.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package| вартплата 3.*|Kvartplata]
+Icon1=KvPay.exe
+Title1=Kvartplata 3.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package| вартплата 3.*|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Inst_kv
+
+[Package| вартплата 3.*|Configure DAO ISAMs]
+Applicable=No
+Xbase=Yes
+Excel=Yes
+Exchange=Yes
+Text=Yes
+Jet 2.x=Yes
+Lotus=Yes
+Paradox=Yes
+
+[Package| вартплата 3.*|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package| вартплата 3.*|Files Found]
+
+[Package| вартплата 3.*|Files Released]
+3dabm5.lic=
+read.me=
+xl.xls=
+kvartplata.mdb=
+
+[Package| вартплата 3.*|Missing Dependency Information]
+C:\WINDOWS\system32\vsstr8.ocx=
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\DATAFORM.OCX=
+C:\3DABM5\3dabm5.ocx=
+F:\Kv\Amod\gdi32.dll=
+C:\Program Files\Microsoft Office\Office10\MSWORD.OLB=
+C:\Program Files\Microsoft Office\Office10\XL5EN32.OLB=
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\DATAFORM.OCX=
+F:\Program Files\Microsoft Office\Office10\MSWORD.OLB=
+F:\Program Files\Microsoft Office\Office10\XL5EN32.OLB=
+F:\WINDOWS\system32\vsstr8.ocx=
+F:\WINDOWS\system32\vsvport8.ocx=
+F:\WINDOWS\system32\vsrpt8.ocx=
+F:\WINDOWS\system32\vsflex8l.ocx=
+F:\WINDOWS\system32\vsdraw8.ocx=
+F:\Program Files\Microsoft Office\Office10\MSRTEDIT.DLL=
+F:\WINDOWS\system32\vsprint8.ocx=
+F:\WINDOWS\system32\vsflex8.ocx=
+F:\Program Files\Common Files\System\ado\msado25.tlb=
+F:\WINDOWS\system32\ieframe.dll=
+
+[Package| вартплата 3.*|Out-of-Date Dependency Information]
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+F:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package| вартплата 3.*|Files Added]
+f:\kv\amod\util\rar.exe=
+f:\kv\amod\rep\lc.doc=
+
+[Package| вартплата 3.*|Files Removed]
+f:\kv\amod\data\kvartplata.mdb=
+
+[Package| вартплата 3.*|Files In Project]
+F:\Kv\Amod\KvPay.exe=Yes
+F:\Kv\Amod\Util\Rar.exe=Yes
+F:\Kv\Amod\Rep\LC.doc=Yes
+F:\WINDOWS\system32\msvbvm60.dll=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+F:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+F:\WINDOWS\system32\MSBIND.DLL=Yes
+F:\WINDOWS\system32\msstdfmt.dll=Yes
+F:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+F:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+F:\WINDOWS\system32\vsflex8.ocx=Yes
+F:\WINDOWS\system32\vsprint8.ocx=Yes
+F:\WINDOWS\system32\vsdraw8.ocx=Yes
+F:\WINDOWS\system32\vsflex8l.ocx=Yes
+F:\WINDOWS\system32\vsrpt8.ocx=Yes
+F:\WINDOWS\system32\vsvport8.ocx=Yes
+F:\WINDOWS\system32\vsstr8.ocx=Yes
+F:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+F:\WINDOWS\system32\msjet40.dll=Yes
+F:\WINDOWS\system32\msjter40.dll=Yes
+F:\WINDOWS\system32\msjint40.dll=Yes
+F:\WINDOWS\system32\vbajet32.dll=Yes
+F:\WINDOWS\system32\expsrv.dll=Yes
+F:\WINDOWS\system32\mswstr10.dll=Yes
+F:\WINDOWS\system32\mswdat10.dll=Yes
+F:\WINDOWS\system32\msrd2x40.dll=Yes
+F:\WINDOWS\system32\msrd3x40.dll=Yes
+F:\WINDOWS\system32\msrepl40.dll=Yes
+F:\WINDOWS\system32\msjtes40.dll=Yes
+F:\WINDOWS\system32\VB5DB.DLL=Yes
+F:\Program Files\Microsoft Office\Office10\XL5EN32.OLB=Yes
+F:\Program Files\Microsoft Office\Office10\MSWORD.OLB=Yes
+F:\WINDOWS\system32\MSDATREP.OCX=Yes
+F:\WINDOWS\system32\MSDATGRD.OCX=Yes
+F:\WINDOWS\system32\MSDATLST.OCX=Yes
+F:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+F:\WINDOWS\system32\COMDLG32.OCX=Yes
+F:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+F:\WINDOWS\system32\COMCT332.OCX=Yes
+F:\WINDOWS\system32\PICCLP32.OCX=Yes
+F:\WINDOWS\system32\MSMASK32.OCX=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+F:\WINDOWS\system32\VB6STKIT.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+F:\WINDOWS\system32\ieframe.dll=Yes
+F:\WINDOWS\system32\DATAFORM.OCX=Yes
+
+[Package| вартплата 3.*|Configure Registry Files]
+Applicable=No
+
+[Package| вартплата 3.*|Configure Remote Servers]
+Applicable=No
+
+[Package| вартплата 3.*|Install Locations]
+F:\Kv\Amod\KvPay.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\vsflex8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\vsprint8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSRTEDIT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\mswebdvd.dll=$(WinSysPath)
+C:\WINDOWS\system32\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\vsdraw8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\vsflex8l.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\vsrpt8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\vsvport8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\vsstr8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSEXCL35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSEXCH35.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSLTUS35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)\rep
+C:\WINDOWS\system32\MSPDOX35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSTEXT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\Kv\Amod\Data\Kvartplata.mdb=$(AppPath)
+C:\Program Files\Common Files\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+C:\WINDOWS\system32\odbc32.dll=$(WinSysPathSysFile)
+F:\Kv\Amod\Util\Rar.exe=$(AppPath)
+F:\Kv\Amod\Data\Arhiv\Read.Me=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\DATAFORM.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DATAFORM.OCX=$(WinSysPath)
+C:\3DABM5\3dabm5.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office10\MSRTEDIT.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINDOWS\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjtes40.dll=$(WinSysPathSysFile)
+F:\Kv\Amod\gdi32.dll=$(WinSysPath)
+C:\WINDOWS\system32\3dabm5.ocx=$(WinSysPath)
+C:\3DABM5\3dabm5.lic=$(AppPath)
+C:\Program Files\Microsoft Office\Office10\MSWORD.OLB=$(WinSysPath)
+F:\Kv\Amod\Rep\LC.doc=$(AppPath)
+F:\Kv\Amod\Temp\XL.xls=$(AppPath)\Temp
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office10\XL5EN32.OLB=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+F:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+F:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+F:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+F:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+F:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+F:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+F:\WINDOWS\system32\vsflex8.ocx=$(WinSysPath)
+F:\WINDOWS\system32\vsprint8.ocx=$(WinSysPath)
+F:\Program Files\Microsoft Office\Office10\MSRTEDIT.DLL=$(WinSysPath)
+F:\WINDOWS\system32\vsdraw8.ocx=$(WinSysPath)
+F:\WINDOWS\system32\vsflex8l.ocx=$(WinSysPath)
+F:\WINDOWS\system32\vsrpt8.ocx=$(WinSysPath)
+F:\WINDOWS\system32\vsvport8.ocx=$(WinSysPath)
+F:\WINDOWS\system32\vsstr8.ocx=$(WinSysPath)
+F:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+F:\WINDOWS\system32\msjet40.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\msjter40.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\msjint40.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\mswstr10.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\mswdat10.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\msrd2x40.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\msrd3x40.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\msrepl40.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\msjtes40.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+F:\Program Files\Microsoft Office\Office10\XL5EN32.OLB=$(WinSysPath)
+F:\Program Files\Microsoft Office\Office10\MSWORD.OLB=$(WinSysPath)
+F:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+F:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+F:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+F:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+F:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+F:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\DATAFORM.OCX=$(WinSysPath)
+F:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+F:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+F:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+F:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\WINDOWS\system32\ieframe.dll=$(WinSysPath)
+F:\WINDOWS\system32\DATAFORM.OCX=$(WinSysPath)
+
+[Package| вартплата 3.*|Configure Shared Files]
+Applicable=Yes
+F:\Kv\Amod\KvPay.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+F:\Kv\Amod\Data\Kvartplata.mdb=Yes
+F:\Kv\Amod\Util\Rar.exe=Yes
+F:\Kv\Amod\Data\Arhiv\Read.Me=Yes
+C:\3DABM5\3dabm5.lic=Yes
+F:\Kv\Amod\Rep\LC.doc=Yes
+F:\Kv\Amod\Temp\XL.xls=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package| вартплата 3.*|Distribution]
+Type=single
+Size=
+Title= вартплата 4.0.*
+
+[Package| вартплата 3.*|DepFile]
+DepCabFile=KvPay.CAB
+DepCabRun=KvPay.INF
+
+[Package| вартплата 3.*|Package]
+PackageFolder=c:\Inst_kv
+ProjectFolder=F:\Kv\Amod
+ServerSideCab=
+File1=c:\Inst_kv\setup.exe
+File2=c:\Inst_kv\Setup.Lst
+File3=c:\Inst_kv\KvPay.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package| вартплата 3.*|IconGroups]
+Group0= вартплата+
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package| вартплата 3.*| вартплата+]
+Icon1=KvPay.exe
+Title1= вартплата+ 4.0
+StartIn1=$(AppPath)
+Key1=Icon1

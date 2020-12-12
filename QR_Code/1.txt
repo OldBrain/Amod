@@ -1,0 +1,1 @@
+ST00012|Name=ООО "ЗАБОЛДИНСКИЙ"|PersonalAcc=40702810705000000282|BankName=АСТРАХАНСКОЕ ОТДЕЛЕНИЕ N8625 ПАО СБЕРБАНК|BIC=041203602|CorrespAcc=30101810500000000602|Sum=135432|PayeeINN=3019013707|lastName=Шишлянников|firstName=В.|middleName=И.|payerAddress=Астрахань г, Аксакова ул, дом № 8, кв. 92|persAcc=008109100328
